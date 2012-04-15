@@ -85,6 +85,8 @@ package net.axgl.star.entity {
 			}
 
 			fireDelay -= Ax.dt;
+			
+			super.update();
 		}
 
 		/**

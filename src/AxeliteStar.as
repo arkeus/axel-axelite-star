@@ -7,8 +7,10 @@ package {
 
 	public class AxeliteStar extends Ax {
 		public function AxeliteStar() {
-			// Game is 400x600 and we'll start in TitleState with a zoom of 1
-			super(400, 600, new TitleState, 1);
+			super(TitleState);
+		}
+		
+		override public function create():void {
 			// Enable the debugger even in release mode
 			Ax.debuggerEnabled = true;
 		}

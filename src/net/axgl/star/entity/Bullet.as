@@ -46,6 +46,8 @@ package net.axgl.star.entity {
 			if (x < -width || x > Ax.width || y < -height || y > Ax.height) {
 				destroy();
 			}
+			
+			super.update();
 		}
 
 		/**

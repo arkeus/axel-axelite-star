@@ -43,6 +43,8 @@ package net.axgl.star.entity {
 				fire();
 				fireTimer = fireDelay;
 			}
+			
+			super.update();
 		}
 
 		/**
